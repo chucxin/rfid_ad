@@ -270,7 +270,7 @@ class App:
         self.status.set("Modified...")
         # modify the name in name list at left
         self.nameList.delete(self.curUserIndex)
-        self.nameList.insert(self.curUserIndex, self.nameEntry.get())
+        self.nameList.insert(self.curUserIndex, self.nameEntry.get())   
 
     # exit
     def on_closing(self, master):
