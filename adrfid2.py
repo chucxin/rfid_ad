@@ -261,7 +261,6 @@ class App:
         with pathlib.Path(filename).open(mode='w') as myFile:
             myFile.write(dataToWrite)
 
-
     # entry modified
     def entryModified(self, *args):
         self.isModified = True
